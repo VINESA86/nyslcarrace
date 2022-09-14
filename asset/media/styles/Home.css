@@ -41,12 +41,25 @@ h2{
     margin-right: 24px;
     width: 103rem;
 }
-.Events{
+.home{
+    margin-bottom:10px;
+    text-decoration: none;
+}
+.homepage{
+    margin-top: 5px;
+}
+.aboutus{
+    margin-top: 5px;
+}
+.contact{
+    margin-top:5px;
+}
+.events{
 
     font-family: calibri, Arial;
     position: relative;
     left: 18rem;
-    bottom: 12rem
+    bottom: 13rem
 }
 
 .navbar{
@@ -57,4 +70,14 @@ h2{
 }
 .list{
     list-style-type: none;
+    margin-top:10px;
+}
+.sangria1{
+    margin-left: 25px;
+}
+.sangria2{
+    margin-left: 25px;
+}
+.sangria3{
+    margin-left: 25px;
 }
