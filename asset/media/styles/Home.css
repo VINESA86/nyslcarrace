@@ -15,7 +15,14 @@ header {
 h1{
     font-size: 50px;
     font-family: Calibri, Arial;
+    position: relative;
+    top: 48px;
+    left: 23px;
+    margin-left: 4px;
+    margin-bottom: 29px;
+    margin-top: -28px;
 }
+
 
 
 
@@ -67,7 +74,7 @@ h2{
     font-size: 20px;
     font-family: calibri, Arial;
     margin-top: -28px;
-    margin-right: ;
+    
 
 }
 .aboutbox{
@@ -93,6 +100,13 @@ h2{
     font-size: 20px;
     font-family: calibri, Arial;
     margin-top: -28px;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100rem;
 }
 .container2{
     display: flex;
@@ -117,10 +131,22 @@ h2{
     display: flex;
     justify-content: flex-end;
     float:right;
+    margin-bottom: -72px
 
 }
 nav ul{
     display: flex;
     justify-content: space-between;
   }
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: -18px;
+}
+
+li{
+    margin-right: 20px;
+}
   
