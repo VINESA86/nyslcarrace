@@ -8,19 +8,23 @@ header {
     width: 103rem;
 }
 .imageheader {
-    width: 60%;
+    width: 0%;
     display:block;
     margin: auto;
 }
 h1{
     font-size: 50px;
     font-family: Calibri, Arial;
+}
+.logo {
+    width: 120px;
     position: relative;
-    top: 48px;
-    left: 23px;
-    margin-left: 4px;
-    margin-bottom: 29px;
-    margin-top: -28px;
+    bottom: 4rem;
+    left: 90rem;
+    top: 20;
+    height: 120px;
+   
+    margin-bottom: 20px;
 }
 h2{
     border:2px solid black;
@@ -34,91 +38,32 @@ h2{
     margin-right: 24px;
     width: 103rem;
 }
-.home{
-    margin-bottom:10px;
+.homepage{
+    margin-bottom:5px;
+}
+.aboutus{
+    margin-top: 5px;
 }
 .contact{
+    margin-top:5px;
     text-decoration: none;
+}
+.contactpage{
+    margin-top: 5px;
 }
 .navbar{
     font-size: 20px;
     font-family: calibri, Arial;
+    position:relative;
     bottom: 113px;
 }
 .list{
     list-style-type: none;
     margin-top:10px;
-    margin-right: 10px;
-}
-.homebox{
-    border:1px solid black;
-    background-color: rgb(0, 123, 255);
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    line-height:40px;
-    font-size: 20px;
-    font-family: calibri, Arial;
-    margin-top: -28px;
-}
-.aboutbox{
-    margin-top: 5px;
-    border:1px solid black;
-    background-color: rgb(0, 123, 255);
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    font-family: calibri, Arial;
-    margin-top: -28px;
-}
-.contactbox{
-    margin-top:5px;
-    border:1px solid black;
-    background-color: rgb(105, 188, 9);
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    font-family: calibri, Arial;
-    margin-top: -28px;  
-}
-.container{
-    display: flex;
-    justify-content: flex-end;
-    width: 100rem;
-}
-.logo {
-    width: 120px;
-    position: relative;
-    bottom: -2rem;
-    left: 3rem;
-    top: 20;
-    height: 120px;
-    margin-bottom: 20px;
-}
-nav ul{
-    display: flex;
-    justify-content: space-between;
-  }
-ul{
-    display:flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-bottom: -18px;
-}
-li{
-    margin-right: 20px;
-}
-.contact-container{
-    display:flex;
-    justify-content: flex-start;
 }
 .contactmail{
-    margin-left: 7rem;
-    margin-top: 1rem;
-    font-size: 20px;
-    font-family: Arial, Calibri;
+    font-family: calibri, Arial;
+    font-size: 23px;
+    margin-left: 19rem;
+    margin-top: -13rem;
 }
